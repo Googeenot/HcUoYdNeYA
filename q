@@ -70,11 +70,11 @@ def dog(x, a, y, b):
 #penColor("white")
 #brushColor("green")
 #circle(200, 150, 50)
-brushColor("blue")
+brushColor(114, 198, 219)
 polygon([(0,0), (0,100), (1500,100), (1500,0)])
-brushColor("green")
+brushColor(104,216,116)
 polygon([(0,350), (0,1000), (1500,1000), (1500,350)])
-brushColor("brown")
+brushColor(193,141,49)
 for i in range(25):
     polygon([(35 * i,100), (35 * i,350), (35 * (i + 1),350), (35 * (i + 1),100)])
 
